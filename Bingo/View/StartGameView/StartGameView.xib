@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StartGameView" customModule="Bingo" customModuleProvider="target">
+            <connections>
+                <outlet property="btnStartGame" destination="LSy-xk-rKs" id="iFq-D5-i5z"/>
+                <outlet property="lbBingoGame" destination="2YH-A9-HBT" id="42r-3C-OrN"/>
+                <outlet property="lbGameRule" destination="8wf-zl-bHv" id="5Zv-wU-5MY"/>
+                <outlet property="txfSetBingoPlateSize" destination="CNe-AZ-iMD" id="tzj-iB-VJl"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LSy-xk-rKs">
+                    <rect key="frame" x="132" y="418" width="150" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="EBI-bX-kSZ"/>
+                        <constraint firstAttribute="width" constant="150" id="wHB-gy-wlH"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="開始遊戲">
+                        <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
+                    </buttonConfiguration>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="賓果小遊戲" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2YH-A9-HBT">
+                    <rect key="frame" x="107" y="144" width="200" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="fmm-nu-TD4"/>
+                        <constraint firstAttribute="height" constant="50" id="vyg-Xq-CKV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CNe-AZ-iMD">
+                    <rect key="frame" x="157" y="329" width="100" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="84a-Cb-aDu"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="請輸入3~10的數字" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8wf-zl-bHv">
+                    <rect key="frame" x="0.0" y="251" width="414" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="HM0-KC-IQV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="8wf-zl-bHv" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="2bD-Iw-bYL"/>
+                <constraint firstItem="2YH-A9-HBT" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="100" id="2fW-zs-VXp"/>
+                <constraint firstItem="CNe-AZ-iMD" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="3xf-C8-tFk"/>
+                <constraint firstItem="LSy-xk-rKs" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="Ded-bv-PkC"/>
+                <constraint firstItem="8wf-zl-bHv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Hrh-ut-PmJ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8wf-zl-bHv" secondAttribute="trailing" id="Wph-ji-cFg"/>
+                <constraint firstItem="CNe-AZ-iMD" firstAttribute="top" secondItem="8wf-zl-bHv" secondAttribute="bottom" constant="8" symbolic="YES" id="aQV-6r-h90"/>
+                <constraint firstItem="LSy-xk-rKs" firstAttribute="top" secondItem="CNe-AZ-iMD" secondAttribute="bottom" constant="55" id="b9Z-rO-z2w"/>
+                <constraint firstItem="LSy-xk-rKs" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="fUH-cQ-fxX"/>
+                <constraint firstItem="2YH-A9-HBT" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="qOm-Fc-XcG"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="100"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

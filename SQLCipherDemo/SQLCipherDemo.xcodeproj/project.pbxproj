@@ -1,0 +1,835 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A0C6D442598B152B4951CCB /* Pods_SQLCipherDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C928C0A7078FF40DCE02CA /* Pods_SQLCipherDemoTests.framework */; };
+		5E451B97A07C60A7ECD7EF3D /* Pods_SQLCipherDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A17A18B415E33E492454192 /* Pods_SQLCipherDemo.framework */; };
+		78267ECF286ADE800000F5F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78267ECE286ADE800000F5F6 /* AppDelegate.swift */; };
+		78267ED1286ADE800000F5F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78267ED0286ADE800000F5F6 /* SceneDelegate.swift */; };
+		78267ED8286ADE820000F5F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78267ED7286ADE820000F5F6 /* Assets.xcassets */; };
+		78267EDB286ADE820000F5F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78267ED9286ADE820000F5F6 /* LaunchScreen.storyboard */; };
+		78267EE6286ADE820000F5F6 /* SQLCipherDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78267EE5286ADE820000F5F6 /* SQLCipherDemoTests.swift */; };
+		78267EF0286ADE820000F5F6 /* SQLCipherDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78267EEF286ADE820000F5F6 /* SQLCipherDemoUITests.swift */; };
+		78267EF2286ADE820000F5F6 /* SQLCipherDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78267EF1286ADE820000F5F6 /* SQLCipherDemoUITestsLaunchTests.swift */; };
+		78267F00286ADF9B0000F5F6 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78267EFE286ADF9B0000F5F6 /* MainVC.swift */; };
+		78267F01286ADF9B0000F5F6 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78267EFF286ADF9B0000F5F6 /* MainVC.xib */; };
+		78267F05286AE1B20000F5F6 /* SQLiteDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78267F04286AE1B20000F5F6 /* SQLiteDatabase.swift */; };
+		78267F07286AE4620000F5F6 /* SQLiteCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78267F06286AE4620000F5F6 /* SQLiteCommands.swift */; };
+		78267F0A286AE8EC0000F5F6 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78267F09286AE8EC0000F5F6 /* Contact.swift */; };
+		78267F0E286AFE600000F5F6 /* InformationTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78267F0C286AFE600000F5F6 /* InformationTVC.swift */; };
+		78267F0F286AFE600000F5F6 /* InformationTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78267F0D286AFE600000F5F6 /* InformationTVC.xib */; };
+		BB727AAD32B1B4D3BC099CFF /* Pods_SQLCipherDemo_SQLCipherDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E166BF132830387930BDE5 /* Pods_SQLCipherDemo_SQLCipherDemoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78267EE2286ADE820000F5F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78267EC3286ADE800000F5F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78267ECA286ADE800000F5F6;
+			remoteInfo = SQLCipherDemo;
+		};
+		78267EEC286ADE820000F5F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78267EC3286ADE800000F5F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78267ECA286ADE800000F5F6;
+			remoteInfo = SQLCipherDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0425E3AF0D5EF28EB0A07FC0 /* Pods-SQLCipherDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLCipherDemoTests.release.xcconfig"; path = "Target Support Files/Pods-SQLCipherDemoTests/Pods-SQLCipherDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		1ECDBE771452F2514393D54B /* Pods-SQLCipherDemo-SQLCipherDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLCipherDemo-SQLCipherDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-SQLCipherDemo-SQLCipherDemoUITests/Pods-SQLCipherDemo-SQLCipherDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4119D87C1F40EDFE1BCEAAB8 /* Pods-SQLCipherDemo-SQLCipherDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLCipherDemo-SQLCipherDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-SQLCipherDemo-SQLCipherDemoUITests/Pods-SQLCipherDemo-SQLCipherDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		621751F16343ABD214132B7F /* Pods-SQLCipherDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLCipherDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-SQLCipherDemoTests/Pods-SQLCipherDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A17A18B415E33E492454192 /* Pods_SQLCipherDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQLCipherDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78267ECB286ADE800000F5F6 /* SQLCipherDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLCipherDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78267ECE286ADE800000F5F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78267ED0286ADE800000F5F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		78267ED7286ADE820000F5F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78267EDA286ADE820000F5F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78267EDC286ADE820000F5F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78267EE1286ADE820000F5F6 /* SQLCipherDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLCipherDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78267EE5286ADE820000F5F6 /* SQLCipherDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLCipherDemoTests.swift; sourceTree = "<group>"; };
+		78267EEB286ADE820000F5F6 /* SQLCipherDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLCipherDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78267EEF286ADE820000F5F6 /* SQLCipherDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLCipherDemoUITests.swift; sourceTree = "<group>"; };
+		78267EF1286ADE820000F5F6 /* SQLCipherDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLCipherDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		78267EFE286ADF9B0000F5F6 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		78267EFF286ADF9B0000F5F6 /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		78267F04286AE1B20000F5F6 /* SQLiteDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteDatabase.swift; sourceTree = "<group>"; };
+		78267F06286AE4620000F5F6 /* SQLiteCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteCommands.swift; sourceTree = "<group>"; };
+		78267F09286AE8EC0000F5F6 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		78267F0C286AFE600000F5F6 /* InformationTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationTVC.swift; sourceTree = "<group>"; };
+		78267F0D286AFE600000F5F6 /* InformationTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InformationTVC.xib; sourceTree = "<group>"; };
+		78C928C0A7078FF40DCE02CA /* Pods_SQLCipherDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQLCipherDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E166BF132830387930BDE5 /* Pods_SQLCipherDemo_SQLCipherDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQLCipherDemo_SQLCipherDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2AB380EB687EAB6F514D7CE /* Pods-SQLCipherDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLCipherDemo.release.xcconfig"; path = "Target Support Files/Pods-SQLCipherDemo/Pods-SQLCipherDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E3D5E7077F3EB91BE50715ED /* Pods-SQLCipherDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLCipherDemo.debug.xcconfig"; path = "Target Support Files/Pods-SQLCipherDemo/Pods-SQLCipherDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78267EC8286ADE800000F5F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E451B97A07C60A7ECD7EF3D /* Pods_SQLCipherDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78267EDE286ADE820000F5F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0C6D442598B152B4951CCB /* Pods_SQLCipherDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78267EE8286ADE820000F5F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB727AAD32B1B4D3BC099CFF /* Pods_SQLCipherDemo_SQLCipherDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		415B493E22F6EE616DBF275E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A17A18B415E33E492454192 /* Pods_SQLCipherDemo.framework */,
+				93E166BF132830387930BDE5 /* Pods_SQLCipherDemo_SQLCipherDemoUITests.framework */,
+				78C928C0A7078FF40DCE02CA /* Pods_SQLCipherDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78267EC2286ADE800000F5F6 = {
+			isa = PBXGroup;
+			children = (
+				78267ECD286ADE800000F5F6 /* SQLCipherDemo */,
+				78267EE4286ADE820000F5F6 /* SQLCipherDemoTests */,
+				78267EEE286ADE820000F5F6 /* SQLCipherDemoUITests */,
+				78267ECC286ADE800000F5F6 /* Products */,
+				B747E8DDA1911ED9367CD6C9 /* Pods */,
+				415B493E22F6EE616DBF275E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		78267ECC286ADE800000F5F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78267ECB286ADE800000F5F6 /* SQLCipherDemo.app */,
+				78267EE1286ADE820000F5F6 /* SQLCipherDemoTests.xctest */,
+				78267EEB286ADE820000F5F6 /* SQLCipherDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78267ECD286ADE800000F5F6 /* SQLCipherDemo */ = {
+			isa = PBXGroup;
+			children = (
+				78267F10286B0EA80000F5F6 /* Database */,
+				78267F08286AE8D20000F5F6 /* Model */,
+				78267F03286AE1970000F5F6 /* SQLiteDataSource */,
+				78267F02286ADFA00000F5F6 /* MainVC */,
+				78267F0B286AFE1E0000F5F6 /* InformationTVC */,
+				78267ECE286ADE800000F5F6 /* AppDelegate.swift */,
+				78267ED0286ADE800000F5F6 /* SceneDelegate.swift */,
+				78267ED7286ADE820000F5F6 /* Assets.xcassets */,
+				78267ED9286ADE820000F5F6 /* LaunchScreen.storyboard */,
+				78267EDC286ADE820000F5F6 /* Info.plist */,
+			);
+			path = SQLCipherDemo;
+			sourceTree = "<group>";
+		};
+		78267EE4286ADE820000F5F6 /* SQLCipherDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				78267EE5286ADE820000F5F6 /* SQLCipherDemoTests.swift */,
+			);
+			path = SQLCipherDemoTests;
+			sourceTree = "<group>";
+		};
+		78267EEE286ADE820000F5F6 /* SQLCipherDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78267EEF286ADE820000F5F6 /* SQLCipherDemoUITests.swift */,
+				78267EF1286ADE820000F5F6 /* SQLCipherDemoUITestsLaunchTests.swift */,
+			);
+			path = SQLCipherDemoUITests;
+			sourceTree = "<group>";
+		};
+		78267F02286ADFA00000F5F6 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				78267EFE286ADF9B0000F5F6 /* MainVC.swift */,
+				78267EFF286ADF9B0000F5F6 /* MainVC.xib */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		78267F03286AE1970000F5F6 /* SQLiteDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				78267F04286AE1B20000F5F6 /* SQLiteDatabase.swift */,
+				78267F06286AE4620000F5F6 /* SQLiteCommands.swift */,
+			);
+			path = SQLiteDataSource;
+			sourceTree = "<group>";
+		};
+		78267F08286AE8D20000F5F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				78267F09286AE8EC0000F5F6 /* Contact.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78267F0B286AFE1E0000F5F6 /* InformationTVC */ = {
+			isa = PBXGroup;
+			children = (
+				78267F0C286AFE600000F5F6 /* InformationTVC.swift */,
+				78267F0D286AFE600000F5F6 /* InformationTVC.xib */,
+			);
+			path = InformationTVC;
+			sourceTree = "<group>";
+		};
+		78267F10286B0EA80000F5F6 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		B747E8DDA1911ED9367CD6C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3D5E7077F3EB91BE50715ED /* Pods-SQLCipherDemo.debug.xcconfig */,
+				A2AB380EB687EAB6F514D7CE /* Pods-SQLCipherDemo.release.xcconfig */,
+				1ECDBE771452F2514393D54B /* Pods-SQLCipherDemo-SQLCipherDemoUITests.debug.xcconfig */,
+				4119D87C1F40EDFE1BCEAAB8 /* Pods-SQLCipherDemo-SQLCipherDemoUITests.release.xcconfig */,
+				621751F16343ABD214132B7F /* Pods-SQLCipherDemoTests.debug.xcconfig */,
+				0425E3AF0D5EF28EB0A07FC0 /* Pods-SQLCipherDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78267ECA286ADE800000F5F6 /* SQLCipherDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78267EF5286ADE820000F5F6 /* Build configuration list for PBXNativeTarget "SQLCipherDemo" */;
+			buildPhases = (
+				077E7F2AC56DB4F084A6450A /* [CP] Check Pods Manifest.lock */,
+				78267EC7286ADE800000F5F6 /* Sources */,
+				78267EC8286ADE800000F5F6 /* Frameworks */,
+				78267EC9286ADE800000F5F6 /* Resources */,
+				76CE9B7775CFB5EEB53F0FB9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLCipherDemo;
+			productName = SQLCipherDemo;
+			productReference = 78267ECB286ADE800000F5F6 /* SQLCipherDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78267EE0286ADE820000F5F6 /* SQLCipherDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78267EF8286ADE820000F5F6 /* Build configuration list for PBXNativeTarget "SQLCipherDemoTests" */;
+			buildPhases = (
+				09A52A17C96E4778145EAFF7 /* [CP] Check Pods Manifest.lock */,
+				78267EDD286ADE820000F5F6 /* Sources */,
+				78267EDE286ADE820000F5F6 /* Frameworks */,
+				78267EDF286ADE820000F5F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78267EE3286ADE820000F5F6 /* PBXTargetDependency */,
+			);
+			name = SQLCipherDemoTests;
+			productName = SQLCipherDemoTests;
+			productReference = 78267EE1286ADE820000F5F6 /* SQLCipherDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78267EEA286ADE820000F5F6 /* SQLCipherDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78267EFB286ADE820000F5F6 /* Build configuration list for PBXNativeTarget "SQLCipherDemoUITests" */;
+			buildPhases = (
+				34D6F26B13E53B720B85AB9E /* [CP] Check Pods Manifest.lock */,
+				78267EE7286ADE820000F5F6 /* Sources */,
+				78267EE8286ADE820000F5F6 /* Frameworks */,
+				78267EE9286ADE820000F5F6 /* Resources */,
+				FD6C6A90BBEBC564A9B5FC74 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78267EED286ADE820000F5F6 /* PBXTargetDependency */,
+			);
+			name = SQLCipherDemoUITests;
+			productName = SQLCipherDemoUITests;
+			productReference = 78267EEB286ADE820000F5F6 /* SQLCipherDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78267EC3286ADE800000F5F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					78267ECA286ADE800000F5F6 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					78267EE0286ADE820000F5F6 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 78267ECA286ADE800000F5F6;
+					};
+					78267EEA286ADE820000F5F6 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 78267ECA286ADE800000F5F6;
+					};
+				};
+			};
+			buildConfigurationList = 78267EC6286ADE800000F5F6 /* Build configuration list for PBXProject "SQLCipherDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78267EC2286ADE800000F5F6;
+			productRefGroup = 78267ECC286ADE800000F5F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78267ECA286ADE800000F5F6 /* SQLCipherDemo */,
+				78267EE0286ADE820000F5F6 /* SQLCipherDemoTests */,
+				78267EEA286ADE820000F5F6 /* SQLCipherDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78267EC9286ADE800000F5F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78267F01286ADF9B0000F5F6 /* MainVC.xib in Resources */,
+				78267EDB286ADE820000F5F6 /* LaunchScreen.storyboard in Resources */,
+				78267F0F286AFE600000F5F6 /* InformationTVC.xib in Resources */,
+				78267ED8286ADE820000F5F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78267EDF286ADE820000F5F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78267EE9286ADE820000F5F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		077E7F2AC56DB4F084A6450A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SQLCipherDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		09A52A17C96E4778145EAFF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SQLCipherDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34D6F26B13E53B720B85AB9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SQLCipherDemo-SQLCipherDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76CE9B7775CFB5EEB53F0FB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SQLCipherDemo/Pods-SQLCipherDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SQLCipherDemo/Pods-SQLCipherDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SQLCipherDemo/Pods-SQLCipherDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD6C6A90BBEBC564A9B5FC74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SQLCipherDemo-SQLCipherDemoUITests/Pods-SQLCipherDemo-SQLCipherDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SQLCipherDemo-SQLCipherDemoUITests/Pods-SQLCipherDemo-SQLCipherDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SQLCipherDemo-SQLCipherDemoUITests/Pods-SQLCipherDemo-SQLCipherDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78267EC7286ADE800000F5F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78267F0A286AE8EC0000F5F6 /* Contact.swift in Sources */,
+				78267F0E286AFE600000F5F6 /* InformationTVC.swift in Sources */,
+				78267ECF286ADE800000F5F6 /* AppDelegate.swift in Sources */,
+				78267F00286ADF9B0000F5F6 /* MainVC.swift in Sources */,
+				78267F05286AE1B20000F5F6 /* SQLiteDatabase.swift in Sources */,
+				78267ED1286ADE800000F5F6 /* SceneDelegate.swift in Sources */,
+				78267F07286AE4620000F5F6 /* SQLiteCommands.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78267EDD286ADE820000F5F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78267EE6286ADE820000F5F6 /* SQLCipherDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78267EE7286ADE820000F5F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78267EF0286ADE820000F5F6 /* SQLCipherDemoUITests.swift in Sources */,
+				78267EF2286ADE820000F5F6 /* SQLCipherDemoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78267EE3286ADE820000F5F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78267ECA286ADE800000F5F6 /* SQLCipherDemo */;
+			targetProxy = 78267EE2286ADE820000F5F6 /* PBXContainerItemProxy */;
+		};
+		78267EED286ADE820000F5F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78267ECA286ADE800000F5F6 /* SQLCipherDemo */;
+			targetProxy = 78267EEC286ADE820000F5F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78267ED9286ADE820000F5F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78267EDA286ADE820000F5F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78267EF3286ADE820000F5F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78267EF4286ADE820000F5F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78267EF6286ADE820000F5F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3D5E7077F3EB91BE50715ED /* Pods-SQLCipherDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S8FBP4YLUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SQLCipherDemo/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = MainVC;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.SQLCipherDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78267EF7286ADE820000F5F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2AB380EB687EAB6F514D7CE /* Pods-SQLCipherDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S8FBP4YLUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SQLCipherDemo/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = MainVC;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.SQLCipherDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		78267EF9286ADE820000F5F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 621751F16343ABD214132B7F /* Pods-SQLCipherDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S8FBP4YLUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.SQLCipherDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQLCipherDemo.app/SQLCipherDemo";
+			};
+			name = Debug;
+		};
+		78267EFA286ADE820000F5F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0425E3AF0D5EF28EB0A07FC0 /* Pods-SQLCipherDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S8FBP4YLUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.SQLCipherDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQLCipherDemo.app/SQLCipherDemo";
+			};
+			name = Release;
+		};
+		78267EFC286ADE820000F5F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ECDBE771452F2514393D54B /* Pods-SQLCipherDemo-SQLCipherDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S8FBP4YLUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.SQLCipherDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SQLCipherDemo;
+			};
+			name = Debug;
+		};
+		78267EFD286ADE820000F5F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4119D87C1F40EDFE1BCEAAB8 /* Pods-SQLCipherDemo-SQLCipherDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S8FBP4YLUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.SQLCipherDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SQLCipherDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78267EC6286ADE800000F5F6 /* Build configuration list for PBXProject "SQLCipherDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78267EF3286ADE820000F5F6 /* Debug */,
+				78267EF4286ADE820000F5F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78267EF5286ADE820000F5F6 /* Build configuration list for PBXNativeTarget "SQLCipherDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78267EF6286ADE820000F5F6 /* Debug */,
+				78267EF7286ADE820000F5F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78267EF8286ADE820000F5F6 /* Build configuration list for PBXNativeTarget "SQLCipherDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78267EF9286ADE820000F5F6 /* Debug */,
+				78267EFA286ADE820000F5F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78267EFB286ADE820000F5F6 /* Build configuration list for PBXNativeTarget "SQLCipherDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78267EFC286ADE820000F5F6 /* Debug */,
+				78267EFD286ADE820000F5F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78267EC3286ADE800000F5F6 /* Project object */;
+}

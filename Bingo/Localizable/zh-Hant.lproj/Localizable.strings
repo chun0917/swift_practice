@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  Bingo
+
+  Created by 呂淳昇 on 2022/6/2.
+  
+*/
+"Bingo Game" = "賓果小遊戲";
+"Please enter the number between 3 and 10." = "請輸入3-10的數字";
+"Start Game" = "開始遊戲";
+"The range of bingo plate is between 3 and 10." = "賓果盤範圍是3-10";
+"Setting" = "輸入";
+"Gaming" = "遊戲";
+"Input number between 1 and 200." = "輸入數字";
+"Random" = "亂數";
+"The number is out of range. Please input again." = "數字超出範圍，請重新輸入";
+"The number is already exist. Please input again." = "數字重複，請重新輸入";
+"Lines:" = "連線數量：";
+"Back" = "返回";
+"You win!" = "恭喜你贏了！";
+"OK" = "確定";

@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78424CCF2836240500B95DE6 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78424CCD2836240500B95DE6 /* GameView.swift */; };
+		78424CD02836240500B95DE6 /* GameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78424CCE2836240500B95DE6 /* GameView.xib */; };
+		78424CD928362F0200B95DE6 /* StartGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78424CD728362F0200B95DE6 /* StartGameView.swift */; };
+		78424CDA28362F0200B95DE6 /* StartGameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78424CD828362F0200B95DE6 /* StartGameView.xib */; };
+		78424CDE283771DB00B95DE6 /* UIControlExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78424CDD283771DB00B95DE6 /* UIControlExtension.swift */; };
+		78424CE028378A5700B95DE6 /* StartGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78424CDF28378A5700B95DE6 /* StartGameViewModel.swift */; };
+		78424CE228378A6600B95DE6 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78424CE128378A6600B95DE6 /* GameViewModel.swift */; };
+		784664C7283CC65400233BB2 /* BingoPlateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784664C5283CC65400233BB2 /* BingoPlateCollectionViewCell.swift */; };
+		784664C8283CC65400233BB2 /* BingoPlateCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 784664C6283CC65400233BB2 /* BingoPlateCollectionViewCell.xib */; };
+		784664CA2847789D00233BB2 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784664C92847789D00233BB2 /* UIViewControllerExtension.swift */; };
+		784664CF284913BB00233BB2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 784664D1284913BB00233BB2 /* Localizable.strings */; };
+		784664D42849153400233BB2 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784664D32849153400233BB2 /* Localizable.swift */; };
+		7863E8FF283613DB004F99B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7863E8FE283613DB004F99B8 /* AppDelegate.swift */; };
+		7863E901283613DB004F99B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7863E900283613DB004F99B8 /* SceneDelegate.swift */; };
+		7863E908283613DD004F99B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7863E907283613DD004F99B8 /* Assets.xcassets */; };
+		7863E90B283613DD004F99B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7863E909283613DD004F99B8 /* LaunchScreen.storyboard */; };
+		7863E916283613DD004F99B8 /* BingoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7863E915283613DD004F99B8 /* BingoTests.swift */; };
+		7863E920283613DD004F99B8 /* BingoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7863E91F283613DD004F99B8 /* BingoUITests.swift */; };
+		7863E922283613DD004F99B8 /* BingoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7863E921283613DD004F99B8 /* BingoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7863E912283613DD004F99B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7863E8F3283613DB004F99B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7863E8FA283613DB004F99B8;
+			remoteInfo = Bingo;
+		};
+		7863E91C283613DD004F99B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7863E8F3283613DB004F99B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7863E8FA283613DB004F99B8;
+			remoteInfo = Bingo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78424CCD2836240500B95DE6 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		78424CCE2836240500B95DE6 /* GameView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameView.xib; sourceTree = "<group>"; };
+		78424CD728362F0200B95DE6 /* StartGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGameView.swift; sourceTree = "<group>"; };
+		78424CD828362F0200B95DE6 /* StartGameView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartGameView.xib; sourceTree = "<group>"; };
+		78424CDD283771DB00B95DE6 /* UIControlExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIControlExtension.swift; sourceTree = "<group>"; };
+		78424CDF28378A5700B95DE6 /* StartGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGameViewModel.swift; sourceTree = "<group>"; };
+		78424CE128378A6600B95DE6 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		784664C5283CC65400233BB2 /* BingoPlateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoPlateCollectionViewCell.swift; sourceTree = "<group>"; };
+		784664C6283CC65400233BB2 /* BingoPlateCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BingoPlateCollectionViewCell.xib; sourceTree = "<group>"; };
+		784664C92847789D00233BB2 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		784664CB2849133C00233BB2 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		784664D0284913BB00233BB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		784664D2284913BD00233BB2 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		784664D32849153400233BB2 /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
+		7863E8FB283613DB004F99B8 /* Bingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7863E8FE283613DB004F99B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7863E900283613DB004F99B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7863E907283613DD004F99B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7863E90A283613DD004F99B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7863E90C283613DD004F99B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7863E911283613DD004F99B8 /* BingoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7863E915283613DD004F99B8 /* BingoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoTests.swift; sourceTree = "<group>"; };
+		7863E91B283613DD004F99B8 /* BingoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7863E91F283613DD004F99B8 /* BingoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoUITests.swift; sourceTree = "<group>"; };
+		7863E921283613DD004F99B8 /* BingoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7863E8F8283613DB004F99B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7863E90E283613DD004F99B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7863E918283613DD004F99B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78424CD52836258500B95DE6 /* StartGameView */ = {
+			isa = PBXGroup;
+			children = (
+				78424CD728362F0200B95DE6 /* StartGameView.swift */,
+				78424CD828362F0200B95DE6 /* StartGameView.xib */,
+			);
+			path = StartGameView;
+			sourceTree = "<group>";
+		};
+		78424CD6283625A300B95DE6 /* GameView */ = {
+			isa = PBXGroup;
+			children = (
+				78424CCD2836240500B95DE6 /* GameView.swift */,
+				78424CCE2836240500B95DE6 /* GameView.xib */,
+			);
+			path = GameView;
+			sourceTree = "<group>";
+		};
+		78424CDC283771A600B95DE6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				78424CDD283771DB00B95DE6 /* UIControlExtension.swift */,
+				784664C92847789D00233BB2 /* UIViewControllerExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		784664C4283CC63100233BB2 /* BingoPlateCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				784664C5283CC65400233BB2 /* BingoPlateCollectionViewCell.swift */,
+				784664C6283CC65400233BB2 /* BingoPlateCollectionViewCell.xib */,
+			);
+			path = BingoPlateCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		784664CC2849137B00233BB2 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				784664D32849153400233BB2 /* Localizable.swift */,
+				784664D1284913BB00233BB2 /* Localizable.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		7863E8F2283613DB004F99B8 = {
+			isa = PBXGroup;
+			children = (
+				7863E93028361475004F99B8 /* ViewModel */,
+				7863E92F2836146D004F99B8 /* View */,
+				7863E92E28361464004F99B8 /* Model */,
+				78424CDC283771A600B95DE6 /* Extension */,
+				784664CC2849137B00233BB2 /* Localizable */,
+				7863E8FD283613DB004F99B8 /* Bingo */,
+				7863E914283613DD004F99B8 /* BingoTests */,
+				7863E91E283613DD004F99B8 /* BingoUITests */,
+				7863E8FC283613DB004F99B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7863E8FC283613DB004F99B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7863E8FB283613DB004F99B8 /* Bingo.app */,
+				7863E911283613DD004F99B8 /* BingoTests.xctest */,
+				7863E91B283613DD004F99B8 /* BingoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7863E8FD283613DB004F99B8 /* Bingo */ = {
+			isa = PBXGroup;
+			children = (
+				7863E8FE283613DB004F99B8 /* AppDelegate.swift */,
+				7863E900283613DB004F99B8 /* SceneDelegate.swift */,
+				7863E907283613DD004F99B8 /* Assets.xcassets */,
+				7863E909283613DD004F99B8 /* LaunchScreen.storyboard */,
+				7863E90C283613DD004F99B8 /* Info.plist */,
+			);
+			path = Bingo;
+			sourceTree = "<group>";
+		};
+		7863E914283613DD004F99B8 /* BingoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7863E915283613DD004F99B8 /* BingoTests.swift */,
+			);
+			path = BingoTests;
+			sourceTree = "<group>";
+		};
+		7863E91E283613DD004F99B8 /* BingoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7863E91F283613DD004F99B8 /* BingoUITests.swift */,
+				7863E921283613DD004F99B8 /* BingoUITestsLaunchTests.swift */,
+			);
+			path = BingoUITests;
+			sourceTree = "<group>";
+		};
+		7863E92E28361464004F99B8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7863E92F2836146D004F99B8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78424CD52836258500B95DE6 /* StartGameView */,
+				78424CD6283625A300B95DE6 /* GameView */,
+				784664C4283CC63100233BB2 /* BingoPlateCollectionViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7863E93028361475004F99B8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				78424CDF28378A5700B95DE6 /* StartGameViewModel.swift */,
+				78424CE128378A6600B95DE6 /* GameViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7863E8FA283613DB004F99B8 /* Bingo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7863E925283613DD004F99B8 /* Build configuration list for PBXNativeTarget "Bingo" */;
+			buildPhases = (
+				7863E8F7283613DB004F99B8 /* Sources */,
+				7863E8F8283613DB004F99B8 /* Frameworks */,
+				7863E8F9283613DB004F99B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bingo;
+			productName = Bingo;
+			productReference = 7863E8FB283613DB004F99B8 /* Bingo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7863E910283613DD004F99B8 /* BingoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7863E928283613DD004F99B8 /* Build configuration list for PBXNativeTarget "BingoTests" */;
+			buildPhases = (
+				7863E90D283613DD004F99B8 /* Sources */,
+				7863E90E283613DD004F99B8 /* Frameworks */,
+				7863E90F283613DD004F99B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7863E913283613DD004F99B8 /* PBXTargetDependency */,
+			);
+			name = BingoTests;
+			productName = BingoTests;
+			productReference = 7863E911283613DD004F99B8 /* BingoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7863E91A283613DD004F99B8 /* BingoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7863E92B283613DD004F99B8 /* Build configuration list for PBXNativeTarget "BingoUITests" */;
+			buildPhases = (
+				7863E917283613DD004F99B8 /* Sources */,
+				7863E918283613DD004F99B8 /* Frameworks */,
+				7863E919283613DD004F99B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7863E91D283613DD004F99B8 /* PBXTargetDependency */,
+			);
+			name = BingoUITests;
+			productName = BingoUITests;
+			productReference = 7863E91B283613DD004F99B8 /* BingoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7863E8F3283613DB004F99B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					7863E8FA283613DB004F99B8 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					7863E910283613DD004F99B8 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 7863E8FA283613DB004F99B8;
+					};
+					7863E91A283613DD004F99B8 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 7863E8FA283613DB004F99B8;
+					};
+				};
+			};
+			buildConfigurationList = 7863E8F6283613DB004F99B8 /* Build configuration list for PBXProject "Bingo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hant",
+			);
+			mainGroup = 7863E8F2283613DB004F99B8;
+			productRefGroup = 7863E8FC283613DB004F99B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7863E8FA283613DB004F99B8 /* Bingo */,
+				7863E910283613DD004F99B8 /* BingoTests */,
+				7863E91A283613DD004F99B8 /* BingoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7863E8F9283613DB004F99B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784664C8283CC65400233BB2 /* BingoPlateCollectionViewCell.xib in Resources */,
+				784664CF284913BB00233BB2 /* Localizable.strings in Resources */,
+				78424CD02836240500B95DE6 /* GameView.xib in Resources */,
+				78424CDA28362F0200B95DE6 /* StartGameView.xib in Resources */,
+				7863E90B283613DD004F99B8 /* LaunchScreen.storyboard in Resources */,
+				7863E908283613DD004F99B8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7863E90F283613DD004F99B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7863E919283613DD004F99B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7863E8F7283613DB004F99B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7863E8FF283613DB004F99B8 /* AppDelegate.swift in Sources */,
+				78424CD928362F0200B95DE6 /* StartGameView.swift in Sources */,
+				784664D42849153400233BB2 /* Localizable.swift in Sources */,
+				784664CA2847789D00233BB2 /* UIViewControllerExtension.swift in Sources */,
+				78424CCF2836240500B95DE6 /* GameView.swift in Sources */,
+				7863E901283613DB004F99B8 /* SceneDelegate.swift in Sources */,
+				78424CDE283771DB00B95DE6 /* UIControlExtension.swift in Sources */,
+				784664C7283CC65400233BB2 /* BingoPlateCollectionViewCell.swift in Sources */,
+				78424CE028378A5700B95DE6 /* StartGameViewModel.swift in Sources */,
+				78424CE228378A6600B95DE6 /* GameViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7863E90D283613DD004F99B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7863E916283613DD004F99B8 /* BingoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7863E917283613DD004F99B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7863E922283613DD004F99B8 /* BingoUITestsLaunchTests.swift in Sources */,
+				7863E920283613DD004F99B8 /* BingoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7863E913283613DD004F99B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7863E8FA283613DB004F99B8 /* Bingo */;
+			targetProxy = 7863E912283613DD004F99B8 /* PBXContainerItemProxy */;
+		};
+		7863E91D283613DD004F99B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7863E8FA283613DB004F99B8 /* Bingo */;
+			targetProxy = 7863E91C283613DD004F99B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		784664D1284913BB00233BB2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				784664D0284913BB00233BB2 /* en */,
+				784664D2284913BD00233BB2 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		7863E909283613DD004F99B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7863E90A283613DD004F99B8 /* Base */,
+				784664CB2849133C00233BB2 /* zh-Hant */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7863E923283613DD004F99B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7863E924283613DD004F99B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7863E926283613DD004F99B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S8FBP4YLUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bingo/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = StartGameView;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.Bingo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7863E927283613DD004F99B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S8FBP4YLUA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bingo/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = StartGameView;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.Bingo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7863E929283613DD004F99B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.BingoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bingo.app/Bingo";
+			};
+			name = Debug;
+		};
+		7863E92A283613DD004F99B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.BingoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bingo.app/Bingo";
+			};
+			name = Release;
+		};
+		7863E92C283613DD004F99B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.BingoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bingo;
+			};
+			name = Debug;
+		};
+		7863E92D283613DD004F99B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.BingoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bingo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7863E8F6283613DB004F99B8 /* Build configuration list for PBXProject "Bingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7863E923283613DD004F99B8 /* Debug */,
+				7863E924283613DD004F99B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7863E925283613DD004F99B8 /* Build configuration list for PBXNativeTarget "Bingo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7863E926283613DD004F99B8 /* Debug */,
+				7863E927283613DD004F99B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7863E928283613DD004F99B8 /* Build configuration list for PBXNativeTarget "BingoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7863E929283613DD004F99B8 /* Debug */,
+				7863E92A283613DD004F99B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7863E92B283613DD004F99B8 /* Build configuration list for PBXNativeTarget "BingoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7863E92C283613DD004F99B8 /* Debug */,
+				7863E92D283613DD004F99B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7863E8F3283613DB004F99B8 /* Project object */;
+}
